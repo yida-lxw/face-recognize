@@ -1,0 +1,12 @@
+mysql:
+  host: 192.168.0.100
+  port: 3306
+  username: root
+  password: 1111
+  db: facedb
+  charset: utf8
+  max-connection-size: 20
+  init-connection-size: 2
+  max-idle-size: 5
+  blocking-if-no-connection: True
+
